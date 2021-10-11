@@ -1,0 +1,28 @@
+{
+  "name": "ecommerce",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Master 8. build Product screen  9. Crear un servidor de node",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon  --watch backend --exec node --experimental-modules backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    
+    "type": "git",
+    "url": "git+https://github.com/AnthonyRicse98/Next-Food-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnthonyRicse98/Next-Food-app/issues"
+  },
+  "homepage": "https://github.com/AnthonyRicse98/Next-Food-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
