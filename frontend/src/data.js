@@ -6,7 +6,7 @@ const data = {
             category:'fruta',
             image:'/images/platano.jpg',
             price : 4.5,
-            numReviews : 10 , 
+            numReviews : 'Fruta' , 
             description:'platano de seda sin gluten' ,
         },
         {
@@ -15,7 +15,7 @@ const data = {
             category:'fruta',
             image:'/images/lenteja.jpg',
             price : 4.5,
-            numReviews : 10 , 
+            numReviews : 'Fruta', 
             description:'platano de seda sin gluten' ,
         },
         {
@@ -24,7 +24,7 @@ const data = {
             category:'Legumbre',
             image:'/images/platano.jpg',
             price : 4.5,
-            numReviews : 10 , 
+            numReviews : 'Legumbre', 
             description:'platano de seda sin gluten' ,
         },
 

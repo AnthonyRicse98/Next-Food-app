@@ -108,6 +108,14 @@ img.mediun{
 }
 /*rating*/
 .rating span{
-  color:#f0c040;
+  color:#aa882c;
+  
   margin:0.1rem;
+}
+.rating{
+  color: #30a743;
+  
+}
+.rating span:last-child{
+  color: rgb(65, 63, 63);
 }
