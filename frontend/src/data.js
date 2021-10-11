@@ -30,6 +30,16 @@ const data = {
             numReviews : 'Legumbre', 
             description:'platano de seda sin gluten' ,
         },
+        {
+            _id:'4',
+            name : 'Lenteja Paisana',
+            category:'Legumbre',
+            image:'/images/platano.jpg',
+            price : 4.5,
+            countInStock:0,
+            numReviews : 'Legumbre', 
+            description:'platano de seda sin gluten' ,
+        },
 
     ],
 };
