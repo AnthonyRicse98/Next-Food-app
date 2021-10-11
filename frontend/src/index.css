@@ -50,6 +50,18 @@ footer{
   align-items: center;
 
 }
+.row.center{
+  justify-content: center;
+}
+.row.top{
+  align-items: flex-start;
+}
+.col-1{
+  flex: 1 1 25rem;
+}
+.col-2{
+  flex:2 1 50rem;
+}
 /*estilo*/
 h1{
   font-size: 1.8rem;
@@ -66,19 +78,53 @@ a{
 a:hover{
   color: rgb(211, 200, 48);
 }
+ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+li{
+  margin-top: 1rem;
+}
+button {
+  padding:1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem #aa882c solid;
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white ;
+  cursor: pointer;
+}
+button:hover{
+  border:0.15rem #c0c0c0 solid;
+}
+button.primary{
+  background-color: #f0c040;
+}
+button.block{
+  width: 100%;
+}
+
+
+/*cabecera*/
 header a{
   color: white;
   padding: 1rem;
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 a.brand{
   color: white;
-  font-size: 3rem;
+  font-size: 2.4rem;
   font-weight: bold;
 }
 .row.center{
   justify-content:center ;
+}
+a.brand:hover{
+  color: rgb(204, 202, 103);
 }
 
 /**image*/
@@ -88,6 +134,9 @@ img{
 }
 img.mediun{
   max-width: 29rem;
+  width: 100%;
+}
+img.large{
   width: 100%;
 }
 /*card*/
@@ -117,5 +166,13 @@ img.mediun{
   
 }
 .rating span:last-child{
-  color: rgb(65, 63, 63);
+  color: rgb(107, 170, 25);
+  font-family: cursive;
+}
+/*Alert */
+.success{
+  color:#20a020;
+}
+.error{
+  color: #a02020;
 }
